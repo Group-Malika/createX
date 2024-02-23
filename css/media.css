@@ -3,10 +3,17 @@
 		max-width: 960px;
 	}
 }
+@media screen and (max-width: 1190px) {
+	.header_menu{
+		margin-left:-300px;
+	}
+
+}
 @media screen and (max-width: 990px) {
 	.container{
 		max-width: 750px;
 	}
+	
 }
 @media screen and (max-width: 780px) {
 	.container{
