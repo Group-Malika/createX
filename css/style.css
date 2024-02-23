@@ -62,7 +62,8 @@ input::placeholder {
 	color: inherit;
 }
 
-button,a {
+button,
+a {
 	cursor: pointer;
 }
 
@@ -71,6 +72,7 @@ textarea {
 	display: block;
 	resize: none;
 }
+
 .container {
 	max-width: 1325px;
 	width: 100%;
@@ -78,6 +80,7 @@ textarea {
 	margin: 0 auto;
 	padding: 0 15px;
 }
+
 section {
 	padding: 100px 0;
 }
@@ -121,28 +124,44 @@ section {
 /* MALIKA */
 
 /* header */
-.header{
+.header {
 	position: fixed;
 	width: 100%;
 	top: 0;
 	left: 0;
 	z-index: 1000;
 }
-.header::before{
+
+.header::before {
 	content: '';
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(112, 112, 112, 0.8);
+	background-color: rgba(147, 142, 142, 0.8);
 }
-.header_body{
+
+.header_body {
 	position: relative;
 	z-index: 10;
 	height: 80px;
 
 }
-.header_link{
-	
+.header_list{
+	gap: 40px;
+}
+.header_link {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #FFFFFF;
+	transition: 1s;
+}
+.header_link:hover{
+	color: #7772F1;
+	border-bottom: 1px solid #7772F1;
+	transition: 1s;
 }
