@@ -164,6 +164,9 @@ section {
 .header_menu{
 	margin-left:-600px;
 }
+.header_burger{
+	display: none;
+}
 
 /*akcholpon*/
 
