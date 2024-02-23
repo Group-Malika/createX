@@ -86,6 +86,7 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .btn {
@@ -114,4 +115,31 @@ section {
 
 .link {
 	transition: 0.3s;
+}
+
+
+/* MALIKA */
+
+/* header */
+.header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.header::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(112, 112, 112, 0.8);
+}
+.header_body{
+	position: relative;
+	z-index: 10;
+	height: 80px;
+
 }
