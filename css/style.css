@@ -74,7 +74,7 @@ textarea {
 }
 
 .container {
-	max-width: 1325px;
+	max-width: 1125px;
 	width: 100%;
 	min-width: 320px;
 	margin: 0 auto;
@@ -93,27 +93,24 @@ section {
 }
 
 .btn {
-	background: linear-gradient(93.7deg, #F3C87A -1.69%, #F3EECA 37.58%, #B39556 77.08%, #EED489 109.84%);
-	box-shadow: 0px 4px 0px #836A36;
-	border-radius: 10px;
-	font-weight: 800;
+	background: linear-gradient(93.7deg, #592ee6 -1.69%, #7772F1 67.58%);
+	border-radius: 4px;
+	font-weight: 400;
 	font-size: 16px;
-	line-height: 19px;
 	text-align: center;
-	text-transform: uppercase;
-	color: #34280E;
-	height: 85px;
+	color:#FFFFFF;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	width: 100%;
-	padding: 14px 0;
-	transition: 0.3s;
+	width: 170px;
+	padding: 12px ;
+	transition: 0.5s;
+	
 }
 
 .btn:hover {
-	box-shadow: 0px 6px 5px 2px #836A36;
+	
 }
 
 .link {
@@ -164,4 +161,7 @@ section {
 	color: #7772F1;
 	border-bottom: 1px solid #7772F1;
 	transition: 1s;
+}
+.header_menu{
+
 }
