@@ -99,6 +99,7 @@
 		background-color: rgba(135, 135, 137, 0.8);
 		padding: 70px 0 0;
 		overflow: auto;
+		z-index: 5;
 	}
 
 	.header_menu.active {
