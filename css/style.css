@@ -493,6 +493,8 @@ color: #787A80;
 }
 .panel p{
 	padding: 0px 0px 0px 20px;
+    width: 556px;
+
 }
 
 .active:after {
@@ -529,3 +531,4 @@ text-align: left;
 	height: 404px;
 	
 }
+.about__b  
