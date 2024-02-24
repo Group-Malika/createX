@@ -223,13 +223,22 @@ section {
 }
 
 /* main block */
-
+.main{
+	background:url(../img/background.png) ;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    width: 100%;
+    height: 100%;
+	margin-top: 80px;
+}
 .main_tit{
 
 }
 .violet{
 	color: #7772F1;
 }
+
 
 /*akcholpon*/
 

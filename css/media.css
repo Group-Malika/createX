@@ -110,6 +110,9 @@
 	.header_body {
 		height: 52px;
 	}
+	.main{
+		margin-top: 52px;
+	}
 
 	.header_list {
 		display: block;
