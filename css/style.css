@@ -454,3 +454,78 @@ text-align: center;
   
     color: black;
 }
+
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 10px 18px;
+    display: none;
+    overflow: hidden;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: #787A80;
+}
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 19px;
+    float: left;
+    margin-left: 10px;
+	font-weight: 00;
+}
+.panel p{
+	padding: 0px 0px 0px 20px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+.big_ask{
+	
+display: flex;
+
+}
+.sec_ask{
+	width: 600px;
+height: 60px;
+font-size: 46px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.acar{
+
+}
+.right_ask{
+	width: 488px;
+	height: 404px;
+	
+}
