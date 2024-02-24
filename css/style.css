@@ -117,6 +117,8 @@ section {
 .link {
 	transition: 0.3s;
 }
+/*akcholpon*/
+
 
 /* MALIKA */
 /* header */
@@ -215,6 +217,229 @@ section {
 
 /*akcholpon*/
 
+.h2{
+font-family: Lato;
+color: #1E212C;
+font-size: 46px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+}
+.sec_text{
+    width: 390px;
+height: 208px;
+top: 1440px;
+left: 345px;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+padding: 40px 10px;
+}
+.btn1{
+    width:161px;
+height:44px;
+top: 1696px;
+left: 345px;
+text-align: center;
+padding: 10px;
+border-radius: 4px;
+gap: 10px;
+background: #7772F1;
+color: #FFFFFF;
+}
+.about_btn{
+    padding: 10px;
+}
+.about__b{
+ padding: 116px 0px 0px 3px;
+}
+.about{
+	max-width: 1230px;
+}
+
+.card_progress{
+    border-radius: 8px;
+    width: 190px;
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    row-gap: 30px;
+
+}
+.circular-prigress{
+    position: relative;
+    height: 148px;
+    width: 148px;
+    background: rebeccapurple;
+    border-radius: 50%;
+    background: conic-gradient(#c562a9 102deg, #dad5d5 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-prigress::before{
+    content: "";
+    position: absolute;
+    height: 137px;
+    width: 137px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.progress-value{
+    position: relative;
+    width: 38px;
+    height: 42px;
+font-family: Lato;
+font-size: 32px;
+font-weight: 900;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+  
+    color: black;
+}
+.text_progress{
+    width: 148px;
+height: 21px;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+background: #424551;
 
 
+}
+.cards_progress{
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	justify-content: center;
+}
 
+.card_progress{
+    border-radius: 8px;
+    width: 190px;
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    row-gap: 30px;
+
+}
+.circular-prigress{
+    position: relative;
+    height: 148px;
+    width: 148px;
+    background: rebeccapurple;
+    border-radius: 50%;
+    background: conic-gradient(#c562a9 102deg, #dad5d5 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-prigress::before{
+    content: "";
+    position: absolute;
+    height: 137px;
+    width: 137px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.progress-value{
+    position: relative;
+    width: 38px;
+    height: 42px;
+font-family: Lato;
+font-size: 32px;
+font-weight: 900;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+  
+    color: black;
+}
+
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 10px 18px;
+    display: none;
+    overflow: hidden;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: #787A80;
+}
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 19px;
+    float: left;
+    margin-left: 10px;
+	font-weight: 00;
+}
+.panel p{
+	padding: 0px 0px 0px 20px;
+    width: 556px;
+
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+.big_ask{
+	
+display: flex;
+
+}
+.sec_ask{
+	width: 600px;
+height: 60px;
+font-size: 46px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.acar{
+
+}
+.right_ask{
+	width: 488px;
+	height: 404px;
+	
+}
