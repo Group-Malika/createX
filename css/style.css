@@ -209,5 +209,9 @@ color: #FFFFFF;
 .about_btn{
     padding: 10px;
 }
-
-
+.about__b{
+ padding: 116px 0px 0px 3px;
+}
+.about{
+	max-width: 1230px;
+}
