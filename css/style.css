@@ -74,7 +74,7 @@ textarea {
 }
 
 .container {
-	max-width: 1325px;
+	max-width: 1125px;
 	width: 100%;
 	min-width: 320px;
 	margin: 0 auto;
@@ -93,27 +93,24 @@ section {
 }
 
 .btn {
-	background: linear-gradient(93.7deg, #F3C87A -1.69%, #F3EECA 37.58%, #B39556 77.08%, #EED489 109.84%);
-	box-shadow: 0px 4px 0px #836A36;
-	border-radius: 10px;
-	font-weight: 800;
-	font-size: 16px;
-	line-height: 19px;
+	background: linear-gradient(93.7deg, #592ee6 -1.69%, #7772F1 67.58%);
+	border-radius: 4px;
+	font-weight: 400;
+	font-size: 15px;
 	text-align: center;
-	text-transform: uppercase;
-	color: #34280E;
-	height: 85px;
+	color:#FFFFFF;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	width: 100%;
-	padding: 14px 0;
-	transition: 0.3s;
+	width: 170px;
+	padding: 12px ;
+	transition: 1s;
+	
 }
 
 .btn:hover {
-	box-shadow: 0px 6px 5px 2px #836A36;
+	transform: scale(0.9);
 }
 
 .link {
@@ -121,67 +118,8 @@ section {
 }
 /*akcholpon*/
 
-.about{
-   
-}
-.h2{
-font-family: Lato;
-color: #1E212C;
-font-size: 46px;
-font-weight: 900;
-line-height: 60px;
-letter-spacing: 0em;
-text-align: left;
-}
-.sec_text{
-    width: 390px;
-height: 208px;
-top: 1440px;
-left: 345px;
-font-family: Lato;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0em;
-text-align: left;
-padding: 40px 10px;
-}
-.btn1{
-    width:161px;
-height:44px;
-top: 1696px;
-left: 345px;
-text-align: center;
-padding: 10px;
-border-radius: 4px;
-gap: 10px;
-background: #7772F1;
-color: #FFFFFF;
-}
-.img img{
-top: 1260px;
-left: 870px;
-border-radius: 4px;
-}
-.about{
-height: 560px;
-}
-img{
-    width: 705px;
-height: 560px;
-left: 870px;
-border-radius: 4px;
-
-}
-.button{
-    padding: 100px;
-}
-.about_btn{
-    padding: 10px;
-}
 
 /* MALIKA */
-
 /* header */
 .header {
 	position: fixed;
@@ -198,7 +136,7 @@ border-radius: 4px;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(147, 142, 142, 0.8);
+	background-color: rgba(150, 142, 142, 0.8);
 }
 
 .header_body {
@@ -208,10 +146,10 @@ border-radius: 4px;
 
 }
 .header_list{
-	gap: 40px;
+	gap: 30px;
 }
 .header_link {
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 400;
 	line-height: 26px;
 	letter-spacing: 0em;
@@ -223,4 +161,17 @@ border-radius: 4px;
 	color: #7772F1;
 	border-bottom: 1px solid #7772F1;
 	transition: 1s;
+	font-weight: 700;
 }
+.header_menu{
+	margin-left:-600px;
+}
+.header_burger{
+	display: none;
+}
+
+/*akcholpon*/
+
+
+
+
