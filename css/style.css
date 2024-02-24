@@ -215,3 +215,242 @@ color: #FFFFFF;
 .about{
 	max-width: 1230px;
 }
+
+.card_progress{
+    border-radius: 8px;
+    width: 190px;
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    row-gap: 30px;
+
+}
+.circular-prigress{
+    position: relative;
+    height: 148px;
+    width: 148px;
+    background: rebeccapurple;
+    border-radius: 50%;
+    background: conic-gradient(#c562a9 102deg, #dad5d5 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-prigress::before{
+    content: "";
+    position: absolute;
+    height: 137px;
+    width: 137px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.progress-value{
+    position: relative;
+    width: 38px;
+    height: 42px;
+font-family: Lato;
+font-size: 32px;
+font-weight: 900;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+  
+    color: black;
+}
+.text_progress{
+    width: 148px;
+height: 21px;
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+background: #424551;
+
+
+}
+.cards_progress{
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.card_progress{
+    border-radius: 8px;
+    width: 190px;
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    row-gap: 30px;
+
+}
+.circular-prigress{
+    position: relative;
+    height: 148px;
+    width: 148px;
+    background: rebeccapurple;
+    border-radius: 50%;
+    background: conic-gradient(#c562a9 102deg, #dad5d5 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-prigress::before{
+    content: "";
+    position: absolute;
+    height: 137px;
+    width: 137px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.progress-value{
+    position: relative;
+    width: 38px;
+    height: 42px;
+font-family: Lato;
+font-size: 32px;
+font-weight: 900;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+  
+    color: black;
+}
+
+.card_progress2{
+    border-radius: 8px;
+    width: 190px;
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    row-gap: 30px;
+
+}
+.circular-prigress2{
+    position: relative;
+    height: 148px;
+    width: 148px;
+    background: rebeccapurple;
+    border-radius: 50%;
+    background: conic-gradient(#c562a9 102deg, #dad5d5 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-prigress2::before{
+    content: "";
+    position: absolute;
+    height: 137px;
+    width: 137px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.progress-value2{
+    position: relative;
+    width: 38px;
+    height: 42px;
+font-family: Lato;
+font-size: 32px;
+font-weight: 900;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+  
+    color: black;
+}
+
+.card_progress3{
+    border-radius: 8px;
+    width: 190px;
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    row-gap: 30px;
+
+}
+.circular-prigress3{
+    position: relative;
+    height: 148px;
+    width: 148px;
+    background: rebeccapurple;
+    border-radius: 50%;
+    background: conic-gradient(#c562a9 102deg, #dad5d5 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-prigress3::before{
+    content: "";
+    position: absolute;
+    height: 137px;
+    width: 137px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.progress-value3{
+    position: relative;
+    width: 38px;
+    height: 42px;
+font-family: Lato;
+font-size: 32px;
+font-weight: 900;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+  
+    color: black;
+}
+
+.card_progress4{
+    border-radius: 8px;
+    width: 190px;
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    row-gap: 30px;
+
+}
+.circular-prigress4{
+    position: relative;
+    height: 148px;
+    width: 148px;
+    background: rebeccapurple;
+    border-radius: 50%;
+    background: conic-gradient(#c562a9 102deg, #dad5d5 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-prigress4::before{
+    content: "";
+    position: absolute;
+    height: 137px;
+    width: 137px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.progress-value4{
+    position: relative;
+    width: 38px;
+    height: 42px;
+font-family: Lato;
+font-size: 32px;
+font-weight: 900;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+  
+    color: black;
+}
