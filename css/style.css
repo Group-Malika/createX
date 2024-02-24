@@ -172,9 +172,6 @@ section {
 
 /*akcholpon*/
 
-.about{
-   
-}
 .h2{
 font-family: Lato;
 color: #1E212C;
@@ -209,15 +206,8 @@ gap: 10px;
 background: #7772F1;
 color: #FFFFFF;
 }
-.about{
-height: 560px;
-}
-.button{
-    padding: 100px;
-}
 .about_btn{
     padding: 10px;
 }
-
 
 
