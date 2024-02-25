@@ -32,7 +32,13 @@
 				<nav class="header_menu">
 					<ul class="header_list flex">
 						<li>
-							<a href="#services" class="header_link">Services</a>
+							<a href="#services" class="header_link" >Services  &bigtriangledown;</a>
+
+							<ul>
+								<li><a href="#" class="header_link">Ardak</a></li>
+								<li><a href="#" class="header_link">Akcholpon</a></li>
+								<li><a href="#" class="header_link">Malika</a></li>
+							</ul>
 						</li>
 						<li>
 							<a href="#case" class="header_link">Case Studies</a>
@@ -60,18 +66,19 @@
 					<div class="main_texts">
 						<h1 class="main_tit">Best <b class="violet">SEO & Marketing</b> Solutions for You</h1>
 						<div class="buttons">
-							<button class="btn btn_transparent" type="button">Get a free analysis</button>
-							
+							<button class="btn btn_white" type="button">Get a free analysis</button>
+
 							<div class="play_video">
-								<button class="play-button" onclick="openModal()"></button> 
+								<button class="play-button" onclick="openModal()"></button>
 								<p class="play_txt">Play video</p>
 							</div>
-							
+
 
 							<div class="modal" id="videoModal">
 								<div class="modal-content">
 									<span class="close" onclick="closeModal()">&times;</span>
-									<iframe width="100%" height="100%" src="https://www.youtube.com/embed/f3lhEyHdGek?si=i8VIwq1hUsgAvx7A"
+									<iframe width="100%" height="100%"
+										src="https://www.youtube.com/embed/f3lhEyHdGek?si=i8VIwq1hUsgAvx7A"
 										frameborder="0" allowfullscreen></iframe>
 								</div>
 							</div>
@@ -81,11 +88,30 @@
 					</div>
 
 				</div>
-				<div class="main_right">
+				<div class="main_right ">
 					<div class="main_img">
 						<img src="img/illustration.png" alt="">
 					</div>
 				</div>
+			</div>
+			<div class="market flex">
+				<div class="market_in">
+					<div class="icon_violet chart"></div>
+					<p class="market_txt">SEO Content Strategy</p>
+				</div>
+				<div class="after"></div>
+				<div class="market_in ">
+					<div class="icon_violet  speaker "></div>
+					<p class="market_txt ">Content Marketing</p>
+				</div>
+				<div class="after"></div>
+				<div class="market_in">
+					<div class="icon_violet computer"></div>
+					<p class="market_txt">Website & Social Media Marketing</p>
+				</div>
+
+			
+			
 			</div>
 			<a href="#main" class="back-to-top">
 			</a>
@@ -145,6 +171,36 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</section>
+	<section class="services " id="services">
+		<div class="container">
+			<h2 class="services_tit">Our services</h2>
+			<div class="tabs">
+				<div class=" tabs__nav tabs-nav  flex">
+					<div class="tabs-nav__item btn btn_violet is-active" data-tab-name="tab1">Social Media</div>
+					<div class="tabs-nav__item btn btn_pink " data-tab-name="tab2">SEO</div>
+					<div class="tabs-nav__item btn btn_red" data-tab-name="tab3">Research</div>
+					<div class="tabs-nav__item btn btn_blue" data-tab-name="tab4">Content & PR</div>
+					<div class="tabs-nav__item btn btn_green" data-tab-name="tab5">Payed Traffic</div>
+				</div>
+				<div class="tabs__content is-active tab1">
+					<div class="tab_content-in">
+						<div class="content_left">
+							<h3 class="content_tit">
+								
+							</h3>
+
+						</div>
+						<div class="content_right"></div>
+					</div>
+				</div>
+				<div class="tabs__content tab2"></div>
+				<div class="tabs__content tab3"></div>
+				<div class="tabs__content tab4"></div>
+				<div class="tabs__content tab5"></div>
+			</div>
+
 		</div>
 	</section>
 

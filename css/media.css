@@ -8,7 +8,22 @@
 	.header_menu {
 		margin-left: -100px;
 	}
-
+	.main_in{
+		flex-direction: column;
+	}
+	.main_texts{
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 70px;
+	}
+	.main_left{
+		width: 100%;
+	}
+	.main_tit{
+		text-align: center;
+		margin: 0 auto;
+	}
 }
 
 @media screen and (max-width: 990px) {
@@ -19,12 +34,28 @@
 	.header_menu {
 		margin-left: 0px;
 	}
+	.after{
+		display: none;
+	}
+	.market_in{
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.market{
+		margin-top: 80px;
+	}
 
 }
 
 @media screen and (max-width: 850px) {
 	.container {
 		max-width: 750px;
+	}
+	.main_right{
+		width: 100%;
+	}
+	.main_img img {
+		margin: 0 auto;
 	}
 
 	.header_burger {
@@ -135,7 +166,8 @@
 	.header_list li {
 		margin-bottom: 20px;
 	}
-
+	nav ul li ul {
+		position: static;}
 }
 
 @media screen and (max-width: 780px) {
@@ -147,7 +179,15 @@
 		width: 150px;
 	}
 }
-
+@media screen and (max-width: 580px) {
+	.container {
+		max-width: 460px;
+	}
+	.main_img img{
+		width: 300px;
+		height: 300px;
+	}
+}
 @media screen and (max-width: 540px) {
 	.container {
 		max-width: 420px;
@@ -170,6 +210,9 @@
 	.back-to-top {
 		bottom: 20px;
 		right: 20px
+	}
+	.main_tit{
+		font-size: 35px;
 	}
 }
 
