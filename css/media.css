@@ -166,7 +166,8 @@
 	.header_list li {
 		margin-bottom: 20px;
 	}
-
+	nav ul li ul {
+		position: static;}
 }
 
 @media screen and (max-width: 780px) {
