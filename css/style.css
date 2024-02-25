@@ -333,7 +333,7 @@ nav ul li:hover>ul {
 	}
 }
 
-.btn_transparent {
+.btn_white {
 	background: none;
 	border: #FFF 1px solid;
 }
@@ -444,8 +444,59 @@ nav ul li:hover>ul {
 	line-height: 60px;
 	letter-spacing: 0em;
 	text-align: center;
+	margin-bottom: 60px;
+}
+
+.tabs-nav__item.is-active {
+	background: none;
+	border: #7772F1 1px solid;
+	color: #7772F1;
+}
+
+.btn_pink:hover {
+	background: none;
+	border: #f828c8 1px solid;
+	color: #f828c8;
+}
+
+.btn_red:hover {
+	background: none;
+	border: #F52F6E 1px solid;
+	color: #F52F6E;
+}
+
+.btn_blue:hover {
+	background: none;
+	border:
+		#5A87FC 1px solid;
+	color:
+		#5A87FC;
+}
+
+.btn_green:hover {
+	background: none;
+	border:
+		#03CEA4 1px solid;
+	color:
+		#03CEA4;
+}
+
+.tabs-nav__item {
+	transition: 1s;
+	border: none;
+	background: none;
+	color: #9A9CA5;
+}
+
+.content_tit {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 42px;
+	letter-spacing: 0em;
+	text-align: left;
 
 }
+
 
 /*akcholpon*/
 
