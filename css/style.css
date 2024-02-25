@@ -949,9 +949,6 @@ nav ul li:hover>ul {
 
 }
 
-.user_details {
-	margin-bottom: 24px;
-}
 
 .row {
 	display: flex;
@@ -1152,7 +1149,13 @@ section {
 }
 
 .user_details {
-	margin-bottom: 24px;
+	padding-left: 20px;
+}
+.input_box{
+	padding-top: 20px;
+}
+.details{
+	padding-top: 20px;
 }
 
 .row {
@@ -1201,14 +1204,13 @@ section {
 .two_input {
 	display: flex;
 }
-
-.p_input {
-	max-width: 287px;
-	height: 52px;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 26px;
-	letter-spacing: 0em;
-	color: white;
-	padding: 20px 0px 0px 20px;
+.p_input{
+    max-width: 287px;
+height: 52px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+color: white;
+padding: 20px 0px 0px 20px;
 }
