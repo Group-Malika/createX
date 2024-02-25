@@ -48,6 +48,18 @@ function closeModal() {
     document.getElementById("videoModal").style.display = "none";
 }
 
+window.onscroll = function() {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+        document.querySelector('.back-to-top').style.display = "block";
+    } else {
+        document.querySelector('.back-to-top').style.display = "none";
+    }
+}
+
 
 //progress bar//   
 

@@ -74,7 +74,7 @@ textarea {
 }
 
 .container {
-	max-width: 1125px;
+	max-width: 1225px;
 	width: 100%;
 	min-width: 320px;
 	margin: 0 auto;
@@ -233,11 +233,7 @@ section {
 	background-size: cover;
 	background-position: center right;
 	width: 100%;
-	height: 100%;
 	margin-top: 80px;
-}
-.main_in{
-	margin-top: -23px;
 }
 .main_left {
 	width: 65%;
@@ -248,7 +244,8 @@ section {
 }
 
 .main_texts {
-	margin-left: 105px;
+	margin-left: 155px;
+	margin-top: -146px;
 }
 
 .main_tit {
@@ -354,9 +351,10 @@ section {
 	cursor: pointer;
 }
 .main_img img{
-	width: 100%;
-	height: 100%;
-	margin-top: 30px;
+	width: 470px;
+	height: 390px;
+	margin-top: 70px;
+	margin-left: -40px;
 
 }
 
