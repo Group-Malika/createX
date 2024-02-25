@@ -765,9 +765,6 @@ text-align: left;
 
 }
 
-.user_details {
-	margin-bottom: 24px;
-}
 
 .row {
 	display: flex;
@@ -943,7 +940,13 @@ text-align: left;
 }
 
 .user_details {
-	margin-bottom: 24px;
+	padding-left: 20px;
+}
+.input_box{
+	padding-top: 20px;
+}
+.details{
+	padding-top: 20px;
 }
 
 .row {
@@ -998,6 +1001,32 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 letter-spacing: 0em;
-color: white;
+color: rgb(247, 243, 243);
 padding: 20px 0px 0px 20px;
+}
+
+.styled-button {
+background-color: #1E212C;
+	color: #ffffff;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 220px;
+	height: 52px;
+}
+
+.styled-button:hover {
+	background-color: #cfc9cf;
+	transition: 1s;
+}
+.user_details1 button{
+	width: 220px;
+height: 52px;
+border-radius: 4px;
+background: #7772F1;
+}
+.user_details1{
+margin-top: 40px;
+padding-right: 128px;
 }

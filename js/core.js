@@ -150,3 +150,70 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+
+
+
+
+
+
+
+
+
+
+function validateForm() {
+    var nameInput = document.getElementById('nameInput');
+    var emailInput = document.getElementById('emailInput');
+    var urlInput = document.getElementById('urlInput');
+    var agreeCheckbox = document.getElementById('agreeCheckbox');
+
+    var nameError = document.getElementById('nameError');
+    var emailError = document.getElementById('emailError');
+    var urlError = document.getElementById('urlError');
+    var agreeError = document.getElementById('agreeError');
+
+    nameError.innerHTML = "";
+    emailError.innerHTML = "";
+    urlError.innerHTML = "";
+    agreeError.innerHTML = "";
+
+    var isValid = true;
+
+    // Validate Name
+    if (nameInput.value.trim() === "") {
+        nameError.innerHTML = "Name is required";
+        isValid = false;
+    }
+
+    // Validate Email
+    if (emailInput.value.trim() === "") {
+        emailError.innerHTML = "Email is required";
+        isValid = false;
+    } else {
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(emailInput.value.trim())) {
+            emailError.innerHTML = "Invalid email format";
+            isValid = false;
+        }
+    }
+
+    // Validate URL
+    if (urlInput.value.trim() === "") {
+        urlError.innerHTML = "URL is required";
+        isValid = false;
+    } else {
+        var urlRegex = /^(ftp|http|https):\/\/[^ "]+$/;
+        if (!urlRegex.test(urlInput.value.trim())) {
+            urlError.innerHTML = "Invalid URL format";
+            isValid = false;
+        }
+    }
+
+    // Validate Agreement Checkbox
+    if (!agreeCheckbox.checked) {
+        agreeError.innerHTML = "You must agree to receive communications";
+        isValid = false;
+    }
+
+    return isValid;
+}
