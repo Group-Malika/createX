@@ -1,3 +1,66 @@
+$(document).ready(function () {
+    // Toggle menu and burger icon
+    $('.header_burger').click(function (event) {
+        $('.header_burger, .header_menu').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+
+    // Close menu when clicking on a menu item
+    $('.header_link').click(function (event) {
+        $('.header_burger, .header_menu').removeClass('active');
+        $('body').removeClass('lock');
+    });
+
+    // Close menu when clicking anywhere outside the menu
+    $(document).click(function (event) {
+        if (!$(event.target).closest('.header').length) {
+            $('.header_burger, .header_menu').removeClass('active');
+            $('body').removeClass('lock');
+        }
+    });
+
+    // Prevent closing menu when clicking inside the menu
+    $('.header_menu').click(function (event) {
+        event.stopPropagation();
+    });
+});
+
+
+
+const smoothLinks = document.querySelectorAll('a[href^="#"]');
+for (let smoothLink of smoothLinks) {
+    smoothLink.addEventListener('click', function (e) {
+        e.preventDefault();
+        const id = smoothLink.getAttribute('href');
+
+        document.querySelector(id).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+};
+
+function openModal() {
+    document.getElementById("videoModal").style.display = "block";
+}
+
+function closeModal() {
+    document.getElementById("videoModal").style.display = "none";
+}
+
+window.onscroll = function() {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+        document.querySelector('.back-to-top').style.display = "block";
+    } else {
+        document.querySelector('.back-to-top').style.display = "none";
+    }
+}
+
+
 //progress bar//   
 
 
@@ -6,18 +69,18 @@
 
 
 function startProgressBar(progressElement, startValue, endValue, speed, progressBarColor) {
-  let progressStratValue = startValue;
+    let progressStratValue = startValue;
 
-  let progress = setInterval(() => {
-    progressStratValue++;
+    let progress = setInterval(() => {
+        progressStratValue++;
 
-    progressElement.querySelector(".progress-value").textContent = `${progressStratValue}`;
-    progressElement.querySelector(".circular-prigress").style.background = `conic-gradient(${progressBarColor} ${progressStratValue * 4.6}deg, #dad5d5 0deg)`;
+        progressElement.querySelector(".progress-value").textContent = `${progressStratValue}`;
+        progressElement.querySelector(".circular-prigress").style.background = `conic-gradient(${progressBarColor} ${progressStratValue * 4.6}deg, #dad5d5 0deg)`;
 
-    if (progressStratValue == endValue) {
-      clearInterval(progress);
-    }
-  }, speed);
+        if (progressStratValue == endValue) {
+            clearInterval(progress);
+        }
+    }, speed);
 }
 
 // Example usage for each progress bar with different colors
@@ -43,7 +106,7 @@ var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
+    acc[i].addEventListener("click", function () {
         /* Toggle between adding and removing the "active" class,
         to highlight the button that controls the panel */
         this.classList.toggle("active");
@@ -64,7 +127,7 @@ var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
+    acc[i].addEventListener("click", function () {
         var panel = this.nextElementSibling;
 
         // Close all other accordion panels
