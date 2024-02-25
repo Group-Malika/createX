@@ -8,6 +8,10 @@
 	.header_menu {
 		margin-left: -100px;
 	}
+	.main_right,
+	.main_left{
+		width: 100%;
+	}
 
 }
 

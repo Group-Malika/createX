@@ -372,32 +372,54 @@ section {
 .market {
 	width: 75%;
 	margin: 0 auto;
+
 }
 
-.icon_violet{
+.icon_violet {
 	width: 30px;
 	height: 30px;
 	background-size: cover;
 	background-position: center;
 }
-.chart{
+
+.chart {
 	background-image: url(../img/icons/piece.png);
 }
-.speaker::before{
+
+.speaker {
 	background-image: url(../img/icons/ic-speaker.png);
-	width: 100%;
 }
-.computer::before{
+
+.computer {
 	background-image: url(../img/icons/ic-computer.png);
-	width: 100%;
 }
-.market_in{
+
+.market_in {
 	display: inline-flex;
 	align-items: center;
-	gap: 10px;
+	gap: 15px;
+	transition: 1s;
+}
+.market_in:hover{
+	transform: scale(1.2);
 }
 
+.market_txt {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #FFFFFF;
 
+}
+
+.after {
+	border-left: 0.1px solid #FFFFFF;
+	filter: blur(0.7px);
+	height: 40px;
+	border-radius: 30px;
+}
 
 
 /*akcholpon*/
