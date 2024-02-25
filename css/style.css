@@ -2,6 +2,8 @@ html,
 body {
 	height: 100%;
 	font-family: "lato";
+	margin: 0 auto;
+
 }
 
 * {
@@ -177,6 +179,17 @@ section {
 
 }
 
+
+nav ul li ul {
+	position: absolute;
+	margin-top: 50px;
+	display: none;
+}
+
+nav ul li:hover > ul{
+	display: initial;
+}
+
 .header_link {
 	font-size: 15px;
 	font-weight: 400;
@@ -185,7 +198,6 @@ section {
 	color: #FFFFFF;
 	transition: 1s;
 }
-
 .header_link:hover {
 	color: #7772F1;
 	border-bottom: 1px solid #7772F1;
@@ -246,7 +258,7 @@ section {
 
 .main_texts {
 	margin-left: 155px;
-	margin-top: -146px;
+	margin-top: -106px;
 }
 
 .main_tit {
@@ -372,7 +384,6 @@ section {
 .market {
 	width: 75%;
 	margin: 0 auto;
-
 }
 
 .icon_violet {
@@ -399,8 +410,11 @@ section {
 	align-items: center;
 	gap: 15px;
 	transition: 1s;
+	margin-top: 70px;
+
 }
-.market_in:hover{
+
+.market_in:hover {
 	transform: scale(1.2);
 }
 
@@ -419,6 +433,8 @@ section {
 	filter: blur(0.7px);
 	height: 40px;
 	border-radius: 30px;
+	margin-top: 70px;
+
 }
 
 
