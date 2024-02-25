@@ -185,7 +185,7 @@ nav ul li ul {
 	display: none;
 }
 
-nav ul li:hover > ul{
+nav ul li:hover>ul {
 	display: initial;
 }
 
@@ -197,6 +197,7 @@ nav ul li:hover > ul{
 	color: #FFFFFF;
 	transition: 1s;
 }
+
 .header_link:hover {
 	color: #7772F1;
 	border-bottom: 1px solid #7772F1;
@@ -436,6 +437,15 @@ nav ul li:hover > ul{
 
 }
 
+/* services */
+.services_tit {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 60px;
+	letter-spacing: 0em;
+	text-align: center;
+
+}
 
 /*akcholpon*/
 
