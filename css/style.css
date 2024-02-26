@@ -780,7 +780,7 @@ footer {
 }
 
 .footer_links {
-	gap: 40px;
+	gap: 60px;
 }
 .footer_main__txt2 {
 	font-size: 16px;
@@ -823,9 +823,8 @@ footer {
 }
 .SIGN-UP {
 	min-width: 286px;
-	display: flex;
 	margin-bottom: 40px;
-	align-items: start;
+
 }
 .footer_main{
 	margin-bottom: 40px;
@@ -835,38 +834,32 @@ footer {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	color: #FFF;
+    text-align: end;
+    cursor: pointer;
 	width: 20px;
 	height: 15px;
 }
 .input_footer {
     width: 286px;
     display: inline-flex;
+	border: 1px solid #FFFFFF;
+	border-radius: 5px;
+	background-color: #49494a;
+	padding: 15px;
 }
 
-.email {
-    color: #818181;
+.email_footer {
+    color: #fff;
     text-align: start;
-    font-family: "Roboto";
-    font-size: 9px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 14px;
     letter-spacing: 0.12px;
-    text-transform: uppercase;
 }
-
-.submit {
-    color: #FFF;
-    text-align: end;
-    font-family: "Roboto";
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.12px;
-    max-width: 50px;
-    transition: 1s;
-    cursor: pointer;
+.input_txt{
+	max-width: 286px;
 }
-
 /*akcholpon*/
 
 .h2 {
