@@ -24,6 +24,25 @@
 		text-align: center;
 		margin: 0 auto;
 	}
+	.h2{
+		text-align: center;
+		margin: 0 auto;
+    font-size: 80px;
+    padding-left: 80px;
+}
+.sec_text{
+	text-align: center;
+	text-align: center;
+    font-size: 32px;
+    width: 800px;
+    padding-left: 111px;
+}
+.btn{
+	margin: 0 auto;
+}
+.cards_progress{
+	padding-right: 41px;
+}
 }
 
 @media screen and (max-width: 990px) {
