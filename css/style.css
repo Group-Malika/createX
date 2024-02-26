@@ -860,6 +860,15 @@ footer {
 .input_txt{
 	max-width: 286px;
 }
+.footer_top_line{
+	border-bottom: 1px solid  #9A9CA5;
+	filter: blur(0.7px);
+	border-radius: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+
 /*akcholpon*/
 
 .h2 {
