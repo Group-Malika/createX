@@ -702,6 +702,9 @@ footer {
 .footer_bottom {
 	background: rgb(79, 77, 77);
 }
+.footer_in{
+	padding-top: 70px;
+}
 
 .footer_main {
 	max-width: 281px;
@@ -716,6 +719,39 @@ footer {
 	width: 100%;
 	color:rgba(120, 122, 128, 1);
 	margin: 20px 0 30px;
+}
+.footer_social___links {
+	min-width: 156px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer_social__link{
+	width: 25px;
+	height: 25px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	transition: 1s;
+	filter: grayscale(2);
+
+}
+.facebook{
+	background-image: url(../img/icons/Facebook.svg);
+}
+.in{
+	background-image: url(../img/icons/Linked-In.svg);
+}
+.twitter{
+	background-image: url(../img/icons/Twitter.svg);
+}
+.instagram{
+	background-image: url(../img/icons/Instagram.svg);
+}
+.footer_social__link:hover{
+	filter: none;
+	transform: scale(1.2);
+
 }
 
 /*akcholpon*/
