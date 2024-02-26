@@ -702,7 +702,8 @@ footer {
 .footer_bottom {
 	background: rgb(79, 77, 77);
 }
-.footer_in{
+
+.footer_in {
 	padding-top: 70px;
 }
 
@@ -717,16 +718,18 @@ footer {
 	letter-spacing: 0em;
 	text-align: left;
 	width: 100%;
-	color:rgba(120, 122, 128, 1);
+	color: rgba(120, 122, 128, 1);
 	margin: 20px 0 30px;
 }
+
 .footer_social___links {
 	min-width: 156px;
 	display: inline-flex;
 	align-items: center;
 	justify-content: space-between;
 }
-.footer_social__link{
+
+.footer_social__link {
 	width: 25px;
 	height: 25px;
 	background-repeat: no-repeat;
@@ -736,22 +739,132 @@ footer {
 	filter: grayscale(2);
 
 }
-.facebook{
+
+.facebook {
 	background-image: url(../img/icons/Facebook.svg);
 }
-.in{
+
+.in {
 	background-image: url(../img/icons/Linked-In.svg);
 }
-.twitter{
+
+.twitter {
 	background-image: url(../img/icons/Twitter.svg);
 }
-.instagram{
+
+.instagram {
 	background-image: url(../img/icons/Instagram.svg);
 }
-.footer_social__link:hover{
+
+.footer_social__link:hover {
 	filter: none;
 	transform: scale(1.2);
 
+}
+
+.footer-links_tit {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 1px;
+	text-align: left;
+	color: rgba(255, 255, 255, 1);
+	margin-bottom: 20px;
+}
+.footer_links{
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: start;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+}
+
+.footer_links {
+	gap: 40px;
+}
+.footer_main__txt2 {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	transition: 0.5s;
+}
+
+.footer_main__txt2:hover {
+	color: #592ee6;
+}
+.tel_number,
+.mail{
+	position: relative;
+	margin-left: 25px;
+}
+.tel_number::before{
+	margin-top: 3px;
+	position: absolute;
+	content: '';
+	width: 19px;
+	height: 19px;	
+	background-image: url(../img/icons/iPhone.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-left: -25px;
+}
+.mail::before{
+	margin-top: 3px;
+	position: absolute;
+	content: '';
+	width: 19px;
+	height: 19px;	
+	background-image: url(../img/icons/Mail.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-left: -25px;
+}
+.SIGN-UP {
+	min-width: 286px;
+	display: flex;
+	margin-bottom: 40px;
+	align-items: start;
+}
+.footer_main{
+	margin-bottom: 40px;
+}
+.submit_footer{
+	background-image: url(../img/icons/line_stroke.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 20px;
+	height: 15px;
+}
+.input_footer {
+    width: 286px;
+    display: inline-flex;
+}
+
+.email {
+    color: #818181;
+    text-align: start;
+    font-family: "Roboto";
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+}
+
+.submit {
+    color: #FFF;
+    text-align: end;
+    font-family: "Roboto";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.12px;
+    max-width: 50px;
+    transition: 1s;
+    cursor: pointer;
 }
 
 /*akcholpon*/
