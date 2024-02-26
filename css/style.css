@@ -1201,6 +1201,11 @@ footer {
 	display: flex;
 	gap: 8px;
 }
+.img{
+	margin: 0 auto;
+	padding-left: 80px;
+	padding-top: 10px;
+}
 
 .inbtn {
 	display: flex;
@@ -1217,8 +1222,8 @@ footer {
 }
 
 .inbtn_i {
-	width: 600px;
-	height: 52px;
+	width: 600%;
+	height: 52%;
 	align-self: stretch;
 }
 
