@@ -699,9 +699,7 @@ footer {
 	background: #1E212C;
 }
 
-.footer_bottom {
-	background: rgb(79, 77, 77);
-}
+
 
 .footer_in {
 	padding-top: 70px;
@@ -756,7 +754,8 @@ footer {
 	background-image: url(../img/icons/Instagram.svg);
 }
 
-.footer_social__link:hover {
+.footer_social__link:hover,
+.app:hover {
 	filter: none;
 	transform: scale(1.2);
 
@@ -845,7 +844,7 @@ footer {
     display: inline-flex;
 	border: 1px solid #FFFFFF;
 	border-radius: 5px;
-	background-color: #49494a;
+	background-color: #30303e;
 	padding: 15px;
 }
 
@@ -867,8 +866,63 @@ footer {
 	margin-bottom: 30px;
 	width: 100%;
 }
-
-
+.apps{
+	width: 40%;
+	margin-bottom: 30px;
+}
+.app{
+	border-radius: 5px;
+	overflow: hidden;
+	width: 100px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(2);
+	transition: 1s;
+}
+.app1{
+	background-image: url(../img/icons/award1.png);
+}
+.app2{
+	background-image: url(../img/icons/award2.png);
+}
+.app3{
+	background-image: url(../img/icons/award3.png);
+}
+.app4{
+	background-image: url(../img/icons/award4.png);
+}
+.prim{
+	background: #30303e;
+	padding: 20px;
+}
+.prim_txt{
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #FFFFFF;
+	min-width: 285px;	
+	display: inline-flex;
+}
+.heart{
+	/* position: relative; */
+	width: 12px;
+	height: 14px;
+	margin: 2px 5px;
+}
+/* .heart::before{
+	content: '';
+	position: absolute;
+	background-image: url(../img/icons/heart.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 12px;
+	height: 12px;
+} */
 /*akcholpon*/
 
 .h2 {
