@@ -451,18 +451,21 @@ nav ul li:hover>ul {
 	border: #7772F1 1px solid;
 	color: #7772F1;
 }
+
 .btn_pink_act,
 .btn_pink:hover {
 	background: none;
 	border: #f828c8 1px solid;
 	color: #f828c8;
 }
+
 .btn_red_act,
 .btn_red:hover {
 	background: none;
 	border: #F52F6E 1px solid;
 	color: #F52F6E;
 }
+
 .btn_blue_act,
 .btn_blue:hover {
 	background: none;
@@ -471,6 +474,7 @@ nav ul li:hover>ul {
 	color:
 		#5A87FC;
 }
+
 .btn_green_act,
 .btn_green:hover {
 	background: none;
@@ -535,7 +539,8 @@ nav ul li:hover>ul {
 	height: 22px;
 	margin-left: -30px;
 }
-.list_pink::before{
+
+.list_pink::before {
 	position: absolute;
 	content: '';
 	background-image: url(../img/icons/mark_pink.svg);
@@ -546,7 +551,8 @@ nav ul li:hover>ul {
 	height: 22px;
 	margin-left: -30px;
 }
-.list_red::before{
+
+.list_red::before {
 	position: absolute;
 	content: '';
 	background-image: url(../img/icons/mark_red.svg);
@@ -557,7 +563,8 @@ nav ul li:hover>ul {
 	height: 22px;
 	margin-left: -30px;
 }
-.list_blue::before{
+
+.list_blue::before {
 	position: absolute;
 	content: '';
 	background-image: url(../img/icons/mark_blue.svg);
@@ -568,7 +575,8 @@ nav ul li:hover>ul {
 	height: 22px;
 	margin-left: -30px;
 }
-.list_green::before{
+
+.list_green::before {
 	position: absolute;
 	content: '';
 	background-image: url(../img/icons/mark_green.svg);
@@ -579,6 +587,7 @@ nav ul li:hover>ul {
 	height: 22px;
 	margin-left: -30px;
 }
+
 .content_buttons {
 	max-width: 330px;
 }
@@ -639,33 +648,42 @@ nav ul li:hover>ul {
 	margin-left: 600px;
 	margin-top: -90px;
 }
-.subscribe img{
+
+.subscribe img {
 	width: 30px;
 	height: 25px;
 }
-.subscribe a{
+
+.subscribe a {
 	display: inline-flex;
 	align-items: center;
 	gap: 5px;
 }
-.btn_all-pink{
+
+.btn_all-pink {
 	background: #f828c8;
 }
-.btn_all-red{
+
+.btn_all-red {
 	background: #FC5A5A;
 }
-.btn_all-blue{
+
+.btn_all-blue {
 	background: #5A87FC;
 }
-.btn_all-green{
+
+.btn_all-green {
 	background: #03CEA4;
 }
-.tabs__content{
+
+.tabs__content {
 	display: none;
 }
-.tabs__content.is-active{
+
+.tabs__content.is-active {
 	display: block;
 }
+
 /* .subscribe_img{
 	background-image: url(../img/icons/youtube.png);
 	background-repeat: no-repeat;
@@ -675,6 +693,30 @@ nav ul li:hover>ul {
 	height: 30px;
 } */
 
+/* footer */
+
+footer {
+	background: #1E212C;
+}
+
+.footer_bottom {
+	background: rgb(79, 77, 77);
+}
+
+.footer_main {
+	max-width: 281px;
+}
+
+.footer_main__txt {
+	font-size: 11.5px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: left;
+	width: 100%;
+	color:rgba(120, 122, 128, 1);
+	margin: 20px 0 30px;
+}
 
 /*akcholpon*/
 
@@ -1151,10 +1193,12 @@ section {
 .user_details {
 	padding-left: 20px;
 }
-.input_box{
+
+.input_box {
 	padding-top: 20px;
 }
-.details{
+
+.details {
 	padding-top: 20px;
 }
 
@@ -1204,13 +1248,14 @@ section {
 .two_input {
 	display: flex;
 }
-.p_input{
-    max-width: 287px;
-height: 52px;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0em;
-color: white;
-padding: 20px 0px 0px 20px;
+
+.p_input {
+	max-width: 287px;
+	height: 52px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
+	color: white;
+	padding: 20px 0px 0px 20px;
 }
